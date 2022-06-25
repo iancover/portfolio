@@ -13,3 +13,46 @@ a {
   justify-content: space-between;
   align-items: center;
 }
+
+.logo-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.icon {
+  vertical-align: bottom;
+}
+
+.html-logo {
+  color: #f06529;
+}
+.css-logo {
+  color: #3c99dc;
+}
+.js-logo {
+  color: #f0db4f;
+}
+.react-logo {
+  color: #61dbfb;
+}
+.node-logo {
+  color: #3c873a;
+}
+.express-logo {
+  /* color: #68a063; */
+  color: #333331;
+}
+.mongo-logo {
+  color: #4DB33D;
+}
+.github-logo {
+  color: #4183C4;
+}
+.bootstrap-logo {
+  color: #8250f9;
+}
+.tailwind-logo {
+  color: #52b5c2;
+}
+

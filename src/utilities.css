@@ -41,7 +41,6 @@
   background-color: #b5b525;
 }
 
-
 /* FONT STYLE */
 .fst-italic {
   font-style: italic;
@@ -59,6 +58,28 @@
 }
 .text-dark {
   color: #333;
+}
+.text-blue {
+  color: #5a96b7;
+}
+.text-green {
+  color: #579348;
+}
+.text-red {
+  color: #b43939;
+}
+.text-orange {
+  color: #b07939;
+}
+.text-yellow {
+  color: #f0db4f;
+}
+.text-purple {
+  color: #ab3d9b;
+}
+
+.text-muted {
+  opacity: 0.4;
 }
 
 .text-muted-rgba {
@@ -99,24 +120,38 @@
 
 /* FONT-SIZE */
 .fs-0 {
-  font-size: 1rem;
+  font-size: 0.9rem;
 }
 .fs-1 {
-  font-size: 1.1rem;
+  font-size: 1rem;
 }
 .fs-2 {
-  font-size: 1.2rem;
+  font-size: 1.25rem;
 }
 .fs-3 {
-  font-size: 1.3rem;
-}
-.fs-4 {
-  font-size: 1.4rem;
-}
-.fs-5 {
   font-size: 1.5rem;
 }
-
+.fs-4 {
+  font-size: 1.75rem;
+}
+.fs-5 {
+  font-size: 2rem;
+}
+.fs-6 {
+  font-size: 2.25rem;
+}
+.fs-7 {
+  font-size: 2.5rem;
+}
+.fs-8 {
+  font-size: 2.75rem;
+}
+.fs-9 {
+  font-size: 3rem;
+}
+.fs-10 {
+  font-size: 3.5rem;
+}
 
 /* PADDING */
 .p-05 {
@@ -245,8 +280,6 @@
   padding-top: 30px;
   padding-bottom: 30px;
 }
-
-
 
 /* MARGIN */
 .m-05 {
