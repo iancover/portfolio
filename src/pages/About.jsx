@@ -2,15 +2,24 @@ function AboutMe() {
   return (
     <div className='text-center'>
       <header className='bg-secondary rounded py-20 m-45'>
-        <h1 className='text-orange'>About Me</h1>
+        <h1 className='text-orange'>Skills</h1>
         <p className='text-dark'>
-          Web developer specializing in JavaScript with a focus on the MERN
-          stack.
+          Web developer specializing in JavaScript, focused on the MERN stack,
+          and experience working with:
           <br />
+          HTML5 | CSS3 | SCSS | ES7 | Vanilla JS | jQuery | React | Redux |
+          Redux Toolkit
+          <br />
+          Node | Express | MongoDB | Mongoose | Mocha | Chai
+          <br />
+          Firebase | Firestore | Heroku | Vercel | Netlify | DigitalOcean |
+          Travis CI
+          <br />
+          Git | GitHub | VS Code | Postman
         </p>
       </header>
       <main className='bg-secondary rounded py-20 px-30 m-45'>
-        <h3 className='text-dark'>Bio</h3>
+        <h1 className='text-orange'>About Me</h1>
         <p className='text-dark'>
           Moved to Austin, TX in 2012 to further my career in the tech industry
           and worked for multiple software start-ups in sales roles covering
