@@ -8,6 +8,19 @@ a {
   text-decoration: none;
 }
 
+hr {
+  color: #333;
+  background-color: #333;
+  border: 1px rgb(61, 60, 60) solid;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  text-align: center;
+}
+
 .nav-container {
   display: flex;
   justify-content: space-between;
@@ -44,10 +57,10 @@ a {
   color: #333331;
 }
 .mongo-logo {
-  color: #4DB33D;
+  color: #4db33d;
 }
 .github-logo {
-  color: #4183C4;
+  color: #4183c4;
 }
 .bootstrap-logo {
   color: #8250f9;
@@ -55,4 +68,3 @@ a {
 .tailwind-logo {
   color: #52b5c2;
 }
-
