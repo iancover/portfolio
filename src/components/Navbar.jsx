@@ -1,7 +1,5 @@
-import { Link } from 'react-router-dom';
-// import { BsSpeaker } from 'react-icons/bs';
-// import { GiHeadphones } from 'react-icons/gi';
-import { FaReact } from 'react-icons/fa';
+import { Link, useLocation } from 'react-router-dom';
+
 import {
   SiHtml5,
   SiCss3,
@@ -16,6 +14,8 @@ import {
 } from 'react-icons/si';
 
 function Navbar() {
+  const location = useLocation();
+
   return (
     <>
       <nav className='py-30 px-30 bg-dark'>
@@ -27,19 +27,50 @@ function Navbar() {
             </Link>
           </div>
           <div className=''>
-            <span className='mx-10'>
-              <Link to='#' className='nav-link text-grey fs-2 text-blue'>
-                apps
+            <span
+              className='mx-10'
+              style={
+                location.pathname === '/'
+                  ? { display: 'none' }
+                  : { display: 'inline' }
+              }>
+              <Link to='/' className='nav-link text-grey fs-2 text-blue'>
+                home
               </Link>
             </span>
-            <span className='mx-10'>
-              <Link to='#' className='nav-link text-grey fs-2 text-blue'>
-                resume
+            <span
+              className='mx-10'
+              style={
+                location.pathname === '/projects'
+                  ? { display: 'none' }
+                  : { display: 'inline' }
+              }>
+              <Link
+                to='/projects'
+                className='nav-link text-grey fs-2 text-blue'>
+                projects
               </Link>
             </span>
-            <span className='mx-10'>
-              <Link to='#' className='nav-link text-grey fs-2 text-blue'>
-                me
+            <span
+              className='mx-10'
+              style={
+                location.pathname === '/about'
+                  ? { display: 'none' }
+                  : { display: 'inline' }
+              }>
+              <Link to='/about' className='nav-link text-grey fs-2 text-blue'>
+                about
+              </Link>
+            </span>
+            <span
+              className='mx-10'
+              style={
+                location.pathname === '/contact'
+                  ? { display: 'none' }
+                  : { display: 'inline' }
+              }>
+              <Link to='/contact' className='nav-link text-grey fs-2 text-blue'>
+                contact
               </Link>
             </span>
           </div>
