@@ -17,7 +17,7 @@ hr {
 footer {
   display: flex;
   justify-content: center;
-  align-items: end;
+  align-items: flex-end;
   text-align: center;
 }
 
