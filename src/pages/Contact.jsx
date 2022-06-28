@@ -21,6 +21,9 @@ function Contact() {
           512.200.3707
         </Link>
       </main>
+      <footer className='text-dark text-center pt-30 mt-30'>
+        <small className='pt-30 mt-30'>Ian Cover &copy; 2022 Austin, TX</small>
+      </footer>
     </div>
   );
 }

@@ -18,10 +18,10 @@ function Home() {
       <main className='bg-secondary rounded py-20 px-30 m-45'>
         <h3 className='text-dark'>Recruiters and Hiring Managers</h3>
         <p className='text-dark'>
-          I appreciate you taking the time and interest in my profile, as eager
-          as I am to speak with everyone reaching out with serious inquiries, I
-          prioritize responding to messages specifying a match with my
-          qualifications and skillset.
+          Thank you for your time and interest in my profile. While I try to
+          respond to all serious inquiries promptly, please know I prioritize
+          responding to messages that specify a match with my qualifications and
+          skillset.
           <br />
           Thank you, sincerely!
         </p>

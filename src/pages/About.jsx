@@ -1,11 +1,11 @@
 function AboutMe() {
   return (
     <div className='text-center'>
-      <header className='bg-secondary rounded py-20 m-45'>
+      <header className='bg-secondary rounded p-20 m-45'>
         <h1 className='text-orange'>Skills</h1>
         <p className='text-dark'>
           Web developer specializing in JavaScript, focused on the MERN stack,
-          and experience working with:
+          and with experience in the following technologies:
           <br />
           HTML5 | CSS3 | SCSS | ES7 | Vanilla JS | jQuery | React | Redux |
           Redux Toolkit
@@ -22,24 +22,28 @@ function AboutMe() {
         <h1 className='text-orange'>About Me</h1>
         <p className='text-dark'>
           Moved to Austin, TX in 2012 to further my career in the tech industry
-          and worked for multiple software start-ups in sales roles covering
-          diverse verticals from domestic Mid-markets to international
-          Enterprise levels; with increased exposure to the technical side of
-          the SaaS industry at every turn.
+          and worked for multiple software start-ups in sales roles covering a
+          wide array of verticals from Mid-market to Enterprise level both
+          domestic and international.
           <br />
-          After a couple of years of entertaining the idea of a career
-          transition into programming, in 2017 I enrolled in a full stack web
-          development bootcamp. Near completion of the program later that year,
-          feeling solely equipped with the fundamentals, rather than rushing
-          into the field partially prepared, I decided to delay my plans and
-          take that next step only when the timing felt right. I have since been
-          focused on learning all aspects of the full stack developer path,
-          working on multiple projects to further my experience, while faced
-          with multiple challenges, including a global pandemic.
+          With increased exposure to the technical side of the SaaS industry at
+          every turn, after a couple of years of entertaining the idea of a
+          career transition into programming, in 2017 I enrolled in a full stack
+          web development bootcamp. Near completion of the program later that
+          year, feeling solely equipped with the fundamentals, rather than
+          rushing into the field partially prepared, I decided to delay my plans
+          and take the next steps only when the timing felt right.
+          <br />
+          I have since been focused on learning all aspects of the full stack
+          developer path, working on multiple projects to further my experience,
+          while faced with multiple challenges, including a global pandemic.
           <br />
           Thanks for reading!
         </p>
       </main>
+      <footer className='text-dark text-center pt-30 mt-30'>
+        <small className='pt-30 mt-30'>Ian Cover &copy; 2022 Austin, TX</small>
+      </footer>
     </div>
   );
 }
