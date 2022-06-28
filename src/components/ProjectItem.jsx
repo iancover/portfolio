@@ -1,9 +1,4 @@
-import { Link } from 'react-router-dom';
-
 function ProjectItem({ proj }) {
-  // const img = proj.title.toLowercase();
-  // console.log(proj.title.toLowerCase());
-
   return (
     <li>
       <div className='d-flex'>
@@ -11,14 +6,16 @@ function ProjectItem({ proj }) {
           <div className={proj.title.toLowerCase()}></div>
         </div>
         <div className='proj-info'>
-          <h1>
-            <Link className='text-blue' to={proj.link}>
-              {proj.title}
-            </Link>
-          </h1>
+          <button
+            className='text-blue proj-link'
+            onClick={() => window.open(proj.link)}>
+            <h1>{proj.title}</h1>
+          </button>
           <h3 className='text-orange'>{proj.technologies}</h3>
           <p className='text-dark'>{proj.description}</p>
-          <Link className='text-blue' to={proj.link}>
+          <button
+            className='text-blue proj-link'
+            onClick={() => window.open(proj.link)}>
             {proj.title === 'PlayerCare'
               ? 'playercare.herokuapp.com'
               : proj.title === 'DevCamper'
@@ -28,7 +25,7 @@ function ProjectItem({ proj }) {
               : proj.title === 'Userch'
               ? 'userch.vercel.app'
               : 'critiq.netlify.app'}
-          </Link>
+          </button>
         </div>
       </div>
     </li>

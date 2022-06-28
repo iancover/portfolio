@@ -25,7 +25,7 @@ footer {
   text-align: center;
 }
 
-/* IMAGES */
+/* PROJ DATA */
 .proj-img {
   display: flex;
   width: 40%;
@@ -73,6 +73,17 @@ footer {
   margin: 20px;
   padding: 20px 0 20px 0;
   width: 50%;
+}
+
+.proj-link {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.proj-link {
+  background-color: transparent;
+  border: none;
 }
 
 /* OTHER */
