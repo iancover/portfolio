@@ -8,6 +8,10 @@ a {
   text-decoration: none;
 }
 
+ul {
+  list-style: none;
+}
+
 hr {
   color: #333;
   background-color: #333;
@@ -19,6 +23,64 @@ footer {
   justify-content: center;
   align-items: flex-end;
   text-align: center;
+}
+
+/* IMAGES */
+.proj-img {
+  display: flex;
+  width: 40%;
+  height: 300px;
+  margin-bottom: 30px;
+}
+.playercare {
+  background-image: url('./components/images/playercare.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+.critiq {
+  background-image: url('./components/images/critiq.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  border-radius: 5px;
+}
+.devcamper {
+  background-image: url('./components/images/devcamper.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  border-radius: 5px;
+}
+.home-in {
+  background-image: url('./components/images/home-in.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  border-radius: 5px;
+}
+.userch {
+  background-image: url('./components/images/userch.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  border-radius: 5px;
+}
+
+.proj-info {
+  margin: 20px;
+  padding: 20px 0 20px 0;
+  width: 50%;
+}
+
+/* OTHER */
+
+.d-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .nav-container {
